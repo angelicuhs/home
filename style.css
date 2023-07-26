@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
     font-family: 'Verdana', Geneva, Tahoma, sans-serif;
     line-height: 1.6;
@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
 }
 
-/* Header Styles */
+
 header {
     background-color: #333;
     color: #fff;
@@ -23,7 +23,7 @@ header {
     margin: 0;
 }
 
-/* Navigation Styles */
+
 nav {
     background-color: #444;
     color: #fff;
@@ -56,7 +56,7 @@ nav a:hover {
     background-color: #555;
 }
 
-/* Main Content Styles */
+
 main {
     padding: 40px;
 }
@@ -69,7 +69,7 @@ section h2 {
     margin-bottom: 20px;
 }
 
-/* Footer Styles */
+
 footer {
     background-color: #333;
     color: #fff;
@@ -77,7 +77,7 @@ footer {
     text-align: center;
 }
 
-/* Button Styles */
+
 button {
     background-color: #007BFF;
     color: #fff;
@@ -93,32 +93,31 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Styles for the Welcome Section */
+
 .welcome-content {
     display: flex;
     align-items: center;
-    margin-bottom: 40px; /* Add some space between sections */
+    margin-bottom: 40px; 
 }
-
 .welcome-content img {
-    max-width: 600px; /* Adjust the width as needed */
-    max-height: 400px; /* Adjust the height as needed */
-    border-radius: 10px; /* Rounded corners for the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+    max-width: 600px; 
+    max-height: 400px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .welcome-content .text-container {
     flex: 1;
-    padding: 30px; /* Add more padding to the text container */
-    border-radius: 10px; /* Rounded corners for the text container */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the text container */
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .welcome-content p {
-    margin-bottom: 15px; /* Add some space between paragraphs */
+    margin-bottom: 15px; 
 }
 
-/* Improved text layout */
+
 .text-container {
     display: flex;
     flex-direction: column;
@@ -130,54 +129,52 @@ button:hover {
     margin-bottom: 20px;
 }
 
-/* Responsive layout adjustments */
+
 @media (max-width: 768px) {
     .welcome-content {
         flex-direction: column;
     }
 
     .welcome-content img {
-        max-width: 100%; /* Adjust image width to fit smaller screens */
-        max-height: auto; /* Allow image height to adjust proportionally */
-        margin-right: 0; /* Remove margin for smaller screens */
-        margin-bottom: 20px; /* Add space between image and text for smaller screens */
+        max-width: 100%; 
+        max-height: auto; 
+        margin-right: 0; 
+        margin-bottom: 20px; 
     }
 }
 
-/* Add a class to target the featured image */
+
 .featured-image {
-    max-width: 400px; /* Adjust the desired maximum width for the image */
-    width: 100%; /* Ensure the image scales properly */
-    height: auto; /* This will maintain the aspect ratio of the image */
-    border-radius: 10px; /* This will create rounded corners with a 10px radius */
+    max-width: 400px; 
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
 }
 
 section {
     text-align: left;
 }
 
-/* Add margin to the iframe to move it down */
 iframe {
     margin-left: 20px;
     margin-top: 20px;
 }
 .smaller-image {
-    max-width: 335px; /* Adjust the desired maximum width for the image */
-    width: 100%; /* Ensure the image scales properly */
-    height: auto; /* This will maintain the aspect ratio of the image */
-    border-radius: 10px; /* This will create rounded corners with a 10px radius */
-    margin-left: 20px; /* Add margin to move the image to the right */
+    max-width: 335px; 
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-left: 20px; 
 }
 
-/* Custom styles for the form */
 form {
-    max-width: 1000px; /* Adjust the maximum width to make the form wider */
+    max-width: 1000px; 
     margin: 20px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
-    /* Add left margin to move the form to the left */
+   
     margin-left: 20px;
 }
 
@@ -218,7 +215,7 @@ input[type="submit"]:hover {
 .project-carousel {
     display: flex;
     overflow: hidden;
-    max-width: 600px; /* Adjust the desired maximum width for the carousel */
+    max-width: 600px; 
     margin: 0 auto;
 }
 
@@ -227,9 +224,11 @@ input[type="submit"]:hover {
     height: auto;
     transition: transform 0.5s ease;
 }
-/* Add styles for the Featured Projects Carousel */
+
 .project-carousel {
-    max-width: 600px; /* Adjust the desired maximum width for the carousel */
+    display: flex;
+    overflow: hidden;
+    max-width: 600px; 
     margin: 0 auto;
     position: relative;
 }
@@ -246,20 +245,162 @@ input[type="submit"]:hover {
 
 .carousel-navigation button {
     font-size: 20px;
-    background: black; /* Change the button background color to black */
-    color: white; /* Change the button text color to white */
+    background: transparent;
     border: none;
     cursor: pointer;
     padding: 5px 10px;
 }
 
 .carousel-navigation button:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Darken the background on hover */
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* Optional: Add some space between the images */
+.project-carousel {
+    max-width: 800px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+
 .project-carousel img {
-    margin-bottom: 10px;
+    width: 200%; 
+    height: 600px; 
+    object-fit: cover; 
+}
+
+
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.small-image {
+    max-width: 20px;
+    height: auto; 
+    margin-right: 10px; 
+}
+
+
+a {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.image-text {
+    margin-left: 10px; 
+}
+
+
+.image-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+
+  .small-image {
+    width: 400px;
+    height: 350px;
+    object-fit: contain;
+    margin-top: -50px;
+  }
+  
+
+  .image-description {
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+
+  .advanced-image-container {
+    margin-top: 10px !important;
+  }
+  
+  .advanced-image {
+    width: 500px; 
+    height: 400px; 
+  }
+  
+  
+  .small-image, .advanced-image {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #555;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav button {
+    display: none;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #555;
 }
 
 
