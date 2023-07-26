@@ -23,10 +23,9 @@ function nextSlide() {
     showSlide(slideIndex);
 }
 
-// Initially show the first slide
+
 showSlide(slideIndex);
 
-// Auto slide every 3 seconds (adjust the interval as needed)
 setInterval(nextSlide, 3000);
 
 
